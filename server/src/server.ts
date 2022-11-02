@@ -14,7 +14,6 @@ async function bootstrap(){
     origin: true,
   })
 
-
   // http://localhost:3333/pools/count
   fastify.get('/pools/count', async () => {
 
